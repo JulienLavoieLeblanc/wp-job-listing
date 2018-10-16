@@ -23,7 +23,7 @@ function reorder_admin_jobs_callback() {
 		'post_status'			 => 'publish',
 		'no_found_rows' 		 => true,
 		'update_post_term_cache' => false,
-		'post_per_post' 		 => 50
+		'post_per_post' 		 => 20
 	);
 
 	$job_listing = new WP_Query( $args );
